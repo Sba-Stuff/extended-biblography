@@ -16,4 +16,4 @@ Has it ever happened to you that you are reading a paper and later you have to c
 
 
 # Image
-<img src="marketing.jpg">
+<img src="marketing.png">
