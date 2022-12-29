@@ -1,0 +1,380 @@
+#BibExplorer .element_label
+{
+    font-family:Arial;
+    font-size:12px;
+    color:#000000;
+}
+#BibExplorer .error_strings
+{
+    font-family:Verdana;
+    font-size:10px;
+    color:#660000;
+    border-style:solid;
+    border-width:0px;
+    border-color:#000000;
+}
+#BibExplorer .sfm_float_error_box
+{
+    position:absolute;
+    z-index:999;
+    cursor:default;
+    font-family:Verdana;
+    font-size:10px;
+    color:#660000;
+    background-color:#ffff66;
+    border-style:solid;
+    border-width:1px;
+    border-color:#660000;
+}
+#BibExplorer .sfm_float_box_td
+{
+    padding:3px;
+    cursor:default;
+    font-family:Verdana;
+    font-size:10px;
+    color:#660000;
+    background-color:#ffff66;
+}
+#BibExplorer .sfm_close_box
+{
+    font-family:Verdana;
+    font-size:10px;
+    font-weight:bold;
+    color:#ffffff;
+    background-color:#660000;
+    border-width:0px;
+    text-align:center;
+}
+#BibExplorer .sfm_cr_box
+{
+    font-family:Verdana;
+    font-size:10px;
+    color:#888888;
+    border-style:solid;
+    border-width:0px;
+    border-color:#660000;
+}
+#BibExplorer .sfm_cr_box a
+{
+    color:#888888;
+}
+#BibExplorer .sfm_textbox
+{
+    padding:2px;
+}
+#BibExplorer .sfm_textarea
+{
+    padding:2px;
+}
+#BibExplorer .sfm_form_label
+{
+    font-family:Arial;
+    font-size:12px;
+    color:#000000;
+}
+#BibExplorer .sfm_image_in_form
+{
+    border:0;
+}
+#BibExplorer .sfm_captcha
+{
+    border:0;
+}
+#BibExplorer .sfm_datepicker_icon
+{
+    border:0;
+}
+
+#BibExplorer #heading_container
+{
+    position:absolute;
+    left:8px;
+    top:8px;
+    width:424px;
+    height:20px;
+    z-index:1;
+}
+#BibExplorer #heading
+{
+    position:absolute;
+    left:131px;
+    top:-5px;
+    text-align:center;
+    font-family:Arial;
+    font-size:20px;
+    font-weight:bold;
+    color:#000066;
+}
+#BibExplorer #label_container
+{
+    position:absolute;
+    left:8px;
+    top:40px;
+    width:120px;
+    height:20px;
+    z-index:3;
+}
+#BibExplorer #label
+{
+    position:absolute;
+    left:25px;
+    top:0px;
+    text-align:right;
+}
+#BibExplorer #PublicationType_container
+{
+    position:absolute;
+    left:136px;
+    top:40px;
+    z-index:2;
+}
+#BibExplorer #PublicationType
+{
+    float:left;
+    width:288px;
+    height:22px;
+    z-index:2;
+}
+#BibExplorer #label1_container
+{
+    position:absolute;
+    left:64px;
+    top:80px;
+    width:60px;
+    height:20px;
+    z-index:4;
+}
+#BibExplorer #label1
+{
+    position:absolute;
+    left:31px;
+    top:0px;
+    text-align:right;
+}
+#BibExplorer #Title_container
+{
+    position:absolute;
+    left:136px;
+    top:80px;
+    z-index:5;
+}
+#BibExplorer #Title
+{
+    float:left;
+    width:282px;
+    z-index:5;
+}
+#BibExplorer #label2_container
+{
+    position:absolute;
+    left:64px;
+    top:112px;
+    width:60px;
+    height:20px;
+    z-index:6;
+}
+#BibExplorer #label2
+{
+    position:absolute;
+    left:19px;
+    top:0px;
+    text-align:right;
+}
+#BibExplorer #Author_container
+{
+    position:absolute;
+    left:136px;
+    top:112px;
+    z-index:7;
+}
+#BibExplorer #Author
+{
+    float:left;
+    width:282px;
+    z-index:7;
+}
+#BibExplorer #label3_container
+{
+    position:absolute;
+    left:64px;
+    top:144px;
+    width:60px;
+    height:20px;
+    z-index:8;
+}
+#BibExplorer #label3
+{
+    position:absolute;
+    left:1px;
+    top:0px;
+    text-align:right;
+}
+#BibExplorer #Publisher_container
+{
+    position:absolute;
+    left:136px;
+    top:144px;
+    z-index:9;
+}
+#BibExplorer #Publisher
+{
+    float:left;
+    width:282px;
+    z-index:9;
+}
+#BibExplorer #label4_container
+{
+    position:absolute;
+    left:72px;
+    top:176px;
+    width:60px;
+    height:20px;
+    z-index:10;
+}
+#BibExplorer #label4
+{
+    position:absolute;
+    left:30px;
+    top:0px;
+    text-align:right;
+}
+#BibExplorer #Year_container
+{
+    position:absolute;
+    left:136px;
+    top:176px;
+    z-index:11;
+}
+#BibExplorer #Year
+{
+    float:left;
+    width:282px;
+    z-index:11;
+}
+#BibExplorer #label5_container
+{
+    position:absolute;
+    left:72px;
+    top:208px;
+    width:60px;
+    height:20px;
+    z-index:12;
+}
+#BibExplorer #label5
+{
+    position:absolute;
+    left:29px;
+    top:0px;
+    text-align:right;
+}
+#BibExplorer #URL_container
+{
+    position:absolute;
+    left:136px;
+    top:208px;
+    z-index:13;
+}
+#BibExplorer #URL
+{
+    float:left;
+    width:282px;
+    z-index:13;
+}
+#BibExplorer #label6_container
+{
+    position:absolute;
+    left:72px;
+    top:240px;
+    width:60px;
+    height:20px;
+    z-index:14;
+}
+#BibExplorer #label6
+{
+    position:absolute;
+    left:7px;
+    top:0px;
+    text-align:right;
+}
+#BibExplorer #Keyword_container
+{
+    position:absolute;
+    left:136px;
+    top:240px;
+    z-index:15;
+}
+#BibExplorer #Keyword
+{
+    float:left;
+    width:282px;
+    z-index:15;
+}
+#BibExplorer #label7_container
+{
+    position:absolute;
+    left:72px;
+    top:272px;
+    width:60px;
+    height:20px;
+    z-index:16;
+}
+#BibExplorer #label7
+{
+    position:absolute;
+    left:10px;
+    top:0px;
+    text-align:right;
+}
+#BibExplorer #Abstract_container
+{
+    position:absolute;
+    left:136px;
+    top:272px;
+    z-index:17;
+}
+#BibExplorer #Abstract
+{
+    float:left;
+    width:282px;
+    height:66px;
+    z-index:17;
+}
+#BibExplorer #label8_container
+{
+    position:absolute;
+    left:64px;
+    top:352px;
+    width:60px;
+    height:20px;
+    z-index:18;
+}
+#BibExplorer #label8
+{
+    position:absolute;
+    left:5px;
+    top:0px;
+    text-align:right;
+}
+#BibExplorer #APA_container
+{
+    position:absolute;
+    left:136px;
+    top:352px;
+    z-index:19;
+}
+#BibExplorer #APA
+{
+    float:left;
+    width:282px;
+    height:66px;
+    z-index:19;
+}
+#BibExplorer #Submit
+{
+    position:absolute;
+    left:344px;
+    top:432px;
+    width:80px;
+    height:25px;
+    z-index:20;
+}

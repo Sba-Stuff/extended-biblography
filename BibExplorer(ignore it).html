@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml'>
+   <head >
+   <script>
+function validate(form) {
+var a = "@"+document.getElementById("PublicationType").value+"{UniqueIDHerePlease,\n";
+var b = "title={"+document.getElementById("Title").value+"},\n";
+var c = "Authors={"+document.getElementById("Author").value+"},\n";
+var d = "Publisher={"+document.getElementById("Publisher").value+"},\n";
+var e = "Year={"+document.getElementById("Year").value+"},\n";
+var f = "URL={"+document.getElementById("URL").value+"},\n";
+var g = "Keyword={"+document.getElementById("Keyword").value+"},\n";
+var h = "Abstract={"+document.getElementById("Abstract").value+"},\n";
+var i = "APA={"+document.getElementById("APA").value+"}\n";
+var j = "}";
+navigator.clipboard.writeText(a+b+c+d+e+f+g+h+i+j);
+    alert("Written To Clipboard");
+}
+</script>
+      <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+      <title >Form Page: BibExplorer</title>
+      <link rel='stylesheet' type='text/css' href='style/BibExplorer.css'/>
+   </head>
+   <body style='background-color:transparent'>
+      <form id='BibExplorer' method='post' accept-charset='UTF-8' onsubmit="return validate(this);">
+         <div id='BibExplorer_errorloc' class='error_strings' style='width:440px;text-align:left'></div>
+         <div id='BibExplorer_outer_div' style='width:440px;height:464px'>
+            <div style='position:relative' id='BibExplorer_inner_div'>
+               <input type='hidden' name='sfm_form_submitted' value='yes'/>
+               <div id='heading_container'>
+                  <div id='heading'>Bib File Explorer</div>
+               </div>
+               <div id='label_container'>
+                  <label id='label' for='PublicationType' class='sfm_form_label'>Publiaction Type</label>
+               </div>
+               <div id='PublicationType_container'>
+                  <select name='PublicationType' id='PublicationType' size='1'>
+                     <option value='book'>Book</option>
+                     <option value='article' selected="selected">Article</option>
+                     <option value='incollection'>Collection</option>
+                  </select>
+               </div>
+               <div id='label1_container'>
+                  <label id='label1' for='Title' class='sfm_form_label'>Title</label>
+               </div>
+               <div id='Title_container'>
+                  <input type='text' name='Title' id='Title' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='label2_container'>
+                  <label id='label2' for='Author' class='sfm_form_label'>Author</label>
+               </div>
+               <div id='Author_container'>
+                  <input type='text' name='Author' id='Author' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='label3_container'>
+                  <label id='label3' for='Publisher' class='sfm_form_label'>Publisher</label>
+               </div>
+               <div id='Publisher_container'>
+                  <input type='text' name='Publisher' id='Publisher' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='label4_container'>
+                  <label id='label4' for='Year' class='sfm_form_label'>Year</label>
+               </div>
+               <div id='Year_container'>
+                  <input type='text' name='Year' id='Year' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='label5_container'>
+                  <label id='label5' for='URL' class='sfm_form_label'>URL</label>
+               </div>
+               <div id='URL_container'>
+                  <input type='text' name='URL' id='URL' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='label6_container'>
+                  <label id='label6' for='Keyword' class='sfm_form_label'>Keyword</label>
+               </div>
+               <div id='Keyword_container'>
+                  <input type='text' name='Keyword' id='Keyword' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='label7_container'>
+                  <label id='label7' for='Abstract' class='sfm_form_label'>Abstract</label>
+               </div>
+               <div id='Abstract_container'><textarea name='Abstract' id='Abstract' class='sfm_textarea'></textarea></div>
+               <div id='label8_container'>
+                  <label id='label8' for='APA' class='sfm_form_label'>APA Style</label>
+               </div>
+               <div id='APA_container'><textarea name='APA' id='APA' class='sfm_textarea'></textarea></div>
+               <input type='submit' name='Submit' value='Submit' id='Submit'/>
+            </div>
+         </div>
+      </form>
+   </body>
+</html>

@@ -1,0 +1,145 @@
+#pdfope .element_label
+{
+    font-family:Arial;
+    font-size:12px;
+    color:#000000;
+}
+#pdfope .error_strings
+{
+    font-family:Verdana;
+    font-size:10px;
+    color:#660000;
+    border-style:solid;
+    border-width:0px;
+    border-color:#000000;
+}
+#pdfope .sfm_float_error_box
+{
+    position:absolute;
+    z-index:999;
+    cursor:default;
+    font-family:Verdana;
+    font-size:10px;
+    color:#660000;
+    background-color:#ffff66;
+    border-style:solid;
+    border-width:1px;
+    border-color:#660000;
+}
+#pdfope .sfm_float_box_td
+{
+    padding:3px;
+    cursor:default;
+    font-family:Verdana;
+    font-size:10px;
+    color:#660000;
+    background-color:#ffff66;
+}
+#pdfope .sfm_close_box
+{
+    font-family:Verdana;
+    font-size:10px;
+    font-weight:bold;
+    color:#ffffff;
+    background-color:#660000;
+    border-width:0px;
+    text-align:center;
+}
+#pdfope .sfm_cr_box
+{
+    font-family:Verdana;
+    font-size:10px;
+    color:#888888;
+    border-style:solid;
+    border-width:0px;
+    border-color:#660000;
+}
+#pdfope .sfm_cr_box a
+{
+    color:#888888;
+}
+#pdfope .sfm_textbox
+{
+    padding:2px;
+}
+#pdfope .sfm_textarea
+{
+    padding:2px;
+}
+#pdfope .sfm_form_label
+{
+    font-family:Arial;
+    font-size:12px;
+    color:#000000;
+}
+#pdfope .sfm_image_in_form
+{
+    border:0;
+}
+#pdfope .sfm_captcha
+{
+    border:0;
+}
+#pdfope .sfm_datepicker_icon
+{
+    border:0;
+}
+
+#pdfope #heading_container
+{
+    position:absolute;
+    left:9px;
+    top:7px;
+    width:591px;
+    height:20px;
+    z-index:1;
+}
+#pdfope #heading
+{
+    position:absolute;
+    left:235px;
+    top:-5px;
+    text-align:center;
+    font-family:Arial;
+    font-size:20px;
+    font-weight:bold;
+    color:#000066;
+}
+#pdfope #label_container
+{
+    position:absolute;
+    left:8px;
+    top:24px;
+    width:30px;
+    height:20px;
+    z-index:2;
+}
+#pdfope #label
+{
+    position:absolute;
+    left:0px;
+    top:0px;
+    text-align:left;
+}
+#pdfope #path_container
+{
+    position:absolute;
+    left:40px;
+    top:24px;
+    z-index:3;
+}
+#pdfope #path
+{
+    float:left;
+    width:465px;
+    z-index:3;
+}
+#pdfope #Opener
+{
+    position:absolute;
+    left:520px;
+    top:24px;
+    width:80px;
+    height:25px;
+    z-index:4;
+}
